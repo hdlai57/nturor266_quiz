@@ -74,6 +74,7 @@
   ```
   self 在 method 外面 - 指向物件本身
   self 在 method 裡面 - 指向物件的變數
+  (可用puts 測試)
   ```
 
 7. attr_accessor 的功能是什麼，它和 attr_reader、attr_writer 之間的差別是什麼？
@@ -105,8 +106,8 @@
 
   #### Ans:
   ```
-  Parent class 可以
-  Sub class 不可以
+  Parent class 不可以
+  Sub class 可以
   ```
 
 11. 請間單說明什麼是 Relational Database，什麼是 SQL
